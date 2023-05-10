@@ -6,7 +6,7 @@
     - 生成されたパスワードが表示される
 
 ## web_passgeneratere.py
-### password.pyの改良版（streamlitを利用しWebアプリにした）
+password.pyの改良版（streamlitを利用しWebアプリにした）
 #### [streamlitの初期設定](https://docs.streamlit.io/library/get-started/installation#install-streamlit-on-macoslinux)
 - streamlit run web_passgenerater.pyで動作させる
     - ブラウザでポート8501に接続(デフォルトのポートが8501)
