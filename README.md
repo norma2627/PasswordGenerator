@@ -9,7 +9,7 @@
 ### password.pyの改良版（streamlitを利用しWebアプリにした）
 #### [streamlitの初期設定](https://docs.streamlit.io/library/get-started/installation#install-streamlit-on-macoslinux)
 - streamlit run web_passgenerater.pyで動作させる
-    - ブラウザでhttp://localhost:8501に接続(デフォルトのポートが8501)
+    - ブラウザでポート8501に接続(デフォルトのポートが8501)
     - パスワードの長さと使用する文字の種類を選択する
     - パスワードを作成するのボタンをクリックする
     - 生成されたパスワードが表示される
