@@ -9,6 +9,7 @@
 password.pyの改良版（streamlitを利用しWebアプリにした）
 #### [パスワード作成アプリ](https://norma2627-password-generater-web-passgenerater-1775uq.streamlit.app/)
 
+#### 起動方法メモ
 - streamlit run web_passgenerater.pyで動作させる
     - ブラウザでポート8501に接続(デフォルトのポートが8501)
     - パスワードの長さと使用する文字の種類を選択する
