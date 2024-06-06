@@ -1,19 +1,16 @@
-# ファイルの説明
+# Password Generator
+条件を指定してパスワードを作成します。<br>
+[Password Generator](https://norma2627-password-generater-web-passgenerater-1775uq.streamlit.app/)<br>
+※すぐに起動しない場合は、起動ボタンを押してください。<br>
 
-## password.py
-- ターミナル上で実行する
-    - 実行するとパスワードの長さを尋ねられるので、半角数字で入力する
-    - 生成されたパスワードが表示される
 
-## web_passgeneratere.py
-password.pyの改良版（streamlitを利用しWebアプリにした）
-#### [パスワード作成アプリ](https://norma2627-password-generater-web-passgenerater-1775uq.streamlit.app/)
+### 使用方法
+1. パスワードの長さをスライダーで設定
+2. 使用したい文字のチェックボックスを選択する
+3. 「パスワードを作成する」をクリックする
+4. パスワードが生成される
+<br>
 
-#### 起動方法メモ
-- streamlit run web_passgenerater.pyで動作させる
-    - ブラウザでポート8501に接続(デフォルトのポートが8501)
-    - パスワードの長さと使用する文字の種類を選択する
-    - パスワードを作成するのボタンをクリックする
-    - 生成されたパスワードが表示される
 
-#### [streamlitの初期設定](https://docs.streamlit.io/library/get-started/installation#install-streamlit-on-macoslinux)
+実際の図↓
+![パスワード生成](image.png)
