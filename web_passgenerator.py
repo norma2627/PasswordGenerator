@@ -6,7 +6,7 @@ import random
 import string
 
 # タイトルを表示
-st.title('パスワード作成ツール')
+st.title('パスワード作成')
 
 # 説明文の表示
 st.header('使用方法')
